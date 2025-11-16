@@ -1,6 +1,6 @@
 public class Balancecheck {
-    public int checkBalance(){
+    public void checkBalance(){
         System.out.println("Your Available balance:"+ATM.balanceAmount);
-        return ATM.balanceAmount;
     }
 }
+
