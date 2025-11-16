@@ -8,7 +8,6 @@ public class Deposit {
         System.out.println("Depositing ₹"+depositAmount);
         if (depositAmount<100 || depositAmount%100!=0) {
             System.out.println("Deposit amount must be at least ₹100 and in multiples of ₹100!");
-            return;
         }
         if (depositAmount<=20000) {
             ATM.balanceAmount+=depositAmount;
@@ -20,3 +19,4 @@ public class Deposit {
         System.out.println("Your updated Balance :"+ATM.balanceAmount);
     }
 }
+
